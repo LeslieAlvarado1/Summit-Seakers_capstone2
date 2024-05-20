@@ -20,5 +20,31 @@ body {
 /* Styling for National Parks file */
 
 .searchBtn-container {
+
+    max-width: 600px;
+    margin: 120px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.searchBtn-container select,
+.searchBtn-container input,
+.searchBtn-container button {
+    margin-bottom: 10px;
+}
+
+.np-container {
+    margin: 10%;
+}
+
+.displayDataNp {
+display: flexbox;
+
+
+}
+/* Styling for Mountains file */
+
+.mountData-container {
     margin-top: 10%;
 }

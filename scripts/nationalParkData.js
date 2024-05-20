@@ -109,7 +109,7 @@ const nationalParksArray = [
     ZipCode: 0,
     Phone: 0,
     Fax: "(415) 705-1050",
-    Visit: "https://www.nps.gov/places/alcatraz-island.htm",
+    Visit: "https://www.nps.gov/places/alcatraz-island",
     Latitude: 37.8266636,
     Longitude: -122.4230122,
     Location: {
