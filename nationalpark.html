@@ -31,16 +31,21 @@
         <!--End of my navigation-->
     </header>
     <main>
-
-        <div class="searchBtn-container">
-            <select id="states">Location</select>
-            <select id="parktype"></select>
-
-            <input type="text" name="searchLocation" id="inputLocation">
-            <button type="button" onclick="searchLocation()">Search by location</button>
-        </div>
+        <div class="np-container">
+            <div class="searchBtn-container">
+                <div id="states-container">
+                    <p>Select Location:</p>
+                    <!-- Radio buttons for states will be inserted here -->
+                </div>
+                <div id="parktype-container">
+                    <p>Select Park Type:</p>
+                    <!-- Radio buttons for park types will be inserted here -->
+                </div>
+                <input type="text" name="searchLocation" id="inputLocation" placeholder="Search by location">
+                <button type="button" onclick="searchLocation()">Search by location</button>
+            </div>
             <div id="myParks"></div>
-        
+        </div>
     </main>
 
     <script src="scripts/locationData.js"></script>
