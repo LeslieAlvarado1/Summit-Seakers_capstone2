@@ -7,6 +7,18 @@ body {
     padding: 0px;
 }
 
+/* Styling for navBar */
+
 .navbar-nav {
     margin: auto;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+/* Styling for National Parks file */
+
+.searchBtn-container {
+    margin-top: 10%;
 }
