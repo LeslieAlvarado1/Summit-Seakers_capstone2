@@ -1,50 +1,126 @@
-:root {
-
-}
-
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Styling for navBar */
 
 .navbar-nav {
-    margin: auto;
+  margin: auto;
 }
 
 .navbar-nav .nav-link {
-    color: white !important;
+  color: white !important;
 }
+
+/* styling for buttons/ hovers */
+
+.btn.btn-primary {
+    border-radius: 10px;
+    background-color: rgba(97, 108, 108, 0.421);
+    color: black;
+    border-color: black;
+}
+.custom-btn:active,
+.custom-btn:focus,
+.custom-btn.focus {
+    background-color: rgba(0, 128, 0, 0.348); /* Change to the desired color */
+    /* Additional styling as needed */
+    border-color: green; /* Optional: Change border color if needed */
+    /* Optional: Remove box shadow if needed */
+}
+.button-container button {
+    background-color: rgba(97, 108, 108, 0.421);
+    border-radius: 10px;
+}
+button:active {
+    background-color: rgba(0, 128, 0, 0.606); /* Change to the desired color */
+}
+
+
+
 
 /* Styling for National Parks file */
 
 .searchBtn-container {
-
-    max-width: 600px;
-    margin: 120px auto;
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  margin: 5% auto; /* Center horizontally and apply top margin */
+  padding: 20px;
+  background-color: #f8f9fa87;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .searchBtn-container select,
 .searchBtn-container input,
 .searchBtn-container button {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .np-container {
-    margin: 10%;
+  margin: 10%;
+}
+
+.hidden {
+  display: none;
+}
+.left-container {
+  flex-direction: column;
+}
+
+.left-container label {
+    margin-right: 10px; /* Adjust the value to control the amount of space */
+}
+
+.left-container,
+.right-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.right-container {
+  margin-top: 2%;
+}
+
+
+.button-container {
+    margin-left: 4px;
 }
 
 .displayDataNp {
-display: flexbox;
-
-
+  display: flexbox;
 }
+
+/* Added CSS for the grid layout */
+
+.park-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px; /* Adjust the gap between cards as needed */
+}
+
+.card {
+  width: 18rem;
+  /* Add any other necessary styles */
+}
+
+#parkMessage {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
 /* Styling for Mountains file */
 
 .mountData-container {
-    margin-top: 10%;
+    max-width: 600px;
+    margin: 5% auto; /* Center horizontally and apply top margin */
+    padding: 20px;
+    background-color: #f8f9fa87;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
