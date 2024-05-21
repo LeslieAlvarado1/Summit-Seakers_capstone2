@@ -1,5 +1,8 @@
 /* Styling for National Parks file */
 
+body {
+  background-color: rgba(121, 121, 132, 0.158);
+}
 .searchBtn-container {
   display: flex;
   justify-content: space-between;
