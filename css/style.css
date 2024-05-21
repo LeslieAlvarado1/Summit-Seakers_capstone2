@@ -49,7 +49,8 @@ button:active {
   max-width: 600px;
   margin: 5% auto; /* Center horizontally and apply top margin */
   padding: 20px;
-  background-color: #f8f9fa87;
+  background-color: #f8f9faed;
+  border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -62,10 +63,7 @@ button:active {
 
 .np-container {
   margin-top: 10%;
-  /* background-image: url("/images/sS-Logo.png");
-  background-size: cover; 
-  background-position: center 4%; 
-  background-repeat: no-repeat; */
+ padding-bottom: 10%
 }
 
 .hidden {
@@ -116,14 +114,26 @@ button:active {
   text-align: center;
   margin-bottom: 5%;
 }
-
+.displayBox {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9faf3;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 600px; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center the card horizontally */
+  margin-bottom: 5%;
+}
 /* Styling for Mountains file */
 
 .mountData-container {
     max-width: 600px;
     margin: 5% auto; /* Center horizontally and apply top margin */
     padding: 20px;
-    background-color: #f8f9faaf;
+    background-color: #f8f9fae9;
+    border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -132,13 +142,14 @@ button:active {
 .mountain-card {
   display: flex;
   flex-direction: column;
-  background-color: #f8f9faf0;
+  background-color: #f8f9faf3;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
   width: 600px; /* Adjust the width as needed */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto; /* Center the card horizontally */
+  margin-bottom: 5%;
 }
 
 
