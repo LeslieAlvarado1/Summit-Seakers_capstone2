@@ -11,6 +11,12 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Customs CSS -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 
 <body>
@@ -34,12 +40,24 @@
     </header>
     <!--End of my Header-->
     <main>
-        <h1 style="margin-top: 5%; text-align: center; height: 1600px;">Summit Seekers</h1>
-        <h2></h2>
-        <h3></h3>
-
+        <div class="home-container">
+            <div class="carousel-container">
+                <div class="carousel-overlay">
+                    <div class="carousel-text">
+                        <h1 style="margin-bottom: 3%; font-size: 70px; font-style: italic;">Welcome to Summit Seekers</h1>
+                        <p style="font-size: 25px;">Where we embrace the adventure in America’s national parks. Our most
+                            treasured places,
+                            kept vibrant by people like you.</p>
+                    </div>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="/images/NKinsman-StoryImg_2.jpg" alt="National Park"></div>
+                    <div class="item"><img src="/images/Tom-StoryImg.jpg" alt="National Park"></div>
+                    <div class="item"><img src="/images/Wildcat-StoryImage.jpg" alt="National Park"></div>
+                </div>
+            </div>
+        </div>
     </main>
-
     <footer>
         <div class="container">
             <!-- Transparent Container -->
@@ -50,7 +68,8 @@
                         <h5 class="contact-header"><strong>Contact Us</strong></h5>
                         <ul class="list-unstyled contact-list">
                             <li class="contact-item"><i class="fas fa-phone"></i> Phone: +1 234 567 890</li>
-                            <li class="contact-item"><i class="fas fa-map-marker-alt"></i> Address: 123 Main St, Anytown, USA</li>
+                            <li class="contact-item"><i class="fas fa-map-marker-alt"></i> Address: 123 Main St,
+                                Anytown, USA</li>
                             <li class="contact-item"><i class="fas fa-envelope"></i> Email: info@example.com</li>
                         </ul>
                     </div>
@@ -71,7 +90,7 @@
                             </div>
                             <button type="submit" id="btnForm" class="btn btn-primary custom-btn">Send</button>
                         </form>
-                        
+
                     </div>
                 </div>
                 <p class="text-center text-body-secondary"><strong>&copy; 2024, Summit Seekers</strong></p>
@@ -80,11 +99,10 @@
             <!-- Footer Text -->
         </div>
     </footer>
-    
+    <script src="/scripts/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="scripts/app.js"></script>
 </body>
 
