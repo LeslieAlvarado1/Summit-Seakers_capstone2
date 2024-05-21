@@ -17,15 +17,17 @@
 <body>
     <header>
         <!--Start of my navigation-->
-        <nav class="navbar fixed-top navbar-expand" style="background-color: #0e0f0f;">
-            <a class="navbar-brand" href="/index.html"> <img src="/images/sS-Logo2.png" alt="Logo"
-                    style="height: 50px; width: 100px ; margin-left: 15% "></a>
-            <div class="container d-flex justify-content-center">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="/index.html" aria-current="page">Home <span
+        <nav class="navbar fixed-top navbar-expand-lg" style="background-color: #0e0f0f;">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/images/sS-Logo2.png" alt="Logo" style="height: 50px; width: 100px;">
+                </a>
+                <span class="navbar-text text-white mx-auto">Summit Seekers</span>
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link text-white active" href="/index.html" aria-current="page">Home <span
                             class="visually-hidden">(current)</span></a>
-                    <a class="nav-item nav-link" href="/nationalpark.html">National Parks</a>
-                    <a class="nav-item nav-link" href="/mountains.html">Mountains</a>
+                    <a class="nav-item nav-link text-white" href="/nationalpark.html">National Parks</a>
+                    <a class="nav-item nav-link text-white" href="/mountains.html">Mountains</a>
                 </div>
             </div>
         </nav>
@@ -36,7 +38,7 @@
             <h1 style="text-align: center;">Mountains Search</h1>
             <div class="mountData-container">
                 <select id="mountainsSelect">
-                    <option value="">Select Mountains</option>
+                    <option value="">Select Mountain</option>
                 </select>
             </div>
             <div id="app"></div>
