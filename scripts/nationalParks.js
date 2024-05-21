@@ -57,17 +57,6 @@ function clearFilters() {
   searchLocation();
 }
 
-function displayParks(parks) {
-  let message = `${parks.length} National Park(s) to visit:`;
-
-  document.getElementById("parkMessage").innerHTML = message;
-
-  let display = parks.map(parkTemplate).join("");
-
-  document.getElementById("myParks").innerHTML = display;
-}
-
-
 // Search function
 function searchLocation() {
   const selectedState = document.getElementById("states").value;
@@ -99,6 +88,16 @@ function searchLocation() {
   displayParks(filteredParks);
 }
 
+function displayParks(parks) {
+  let message = `${parks.length} National Park(s) to visit:`;
+
+  document.getElementById("parkMessage").innerHTML = message;
+
+  let display = parks.map(parkTemplate).join("");
+
+  document.getElementById("myParks").innerHTML = display;
+}
+
 // Template function
 /* function parkTemplate(park) {
   return `
@@ -112,12 +111,14 @@ function searchLocation() {
           </div>
       </div>`;
 } */
+
 function parkTemplate(park) {
   return `
     <div class="park">
       <h3>${park.LocationName}</h3>
       <p>${park.Address}, ${park.City}, ${park.State}, ${park.ZipCode}</p>
       <p>Phone: ${park.Phone}</p>
+      ${park.Visit ? `<p class="card-text"><a href="#" onclick="openInNewWindow('${park.Visit}')">Visit Site</a></p>` : ''}
       <img src="${park.Image}" alt="${park.LocationName}">
     </div>
   `;
