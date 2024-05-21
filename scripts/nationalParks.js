@@ -71,8 +71,8 @@ function searchLocation() {
   }
 
   if (document.getElementById("parkTypeRadio").checked && selectedParkType) {
-    filteredParks = filteredParks.filter(
-      (park) => park.ParkType === selectedParkType
+    filteredParks = filteredParks.filter((park) =>
+      park.LocationName.toLowerCase().includes(selectedParkType.toLowerCase())
     );
   }
 
