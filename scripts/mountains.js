@@ -31,7 +31,7 @@ function mountainTemplate(mountain) {
       <div class="mountain-card">
           <img class="mountain-photo" src="images/${mountain.img}" alt="${mountain.name}">
           <div class="mountain-info">
-              <h2 class="mountain-name">${mountain.name}</h2>
+              <h2 class="mountain-name"><strong>${mountain.name}</strong></h2>
               <p class="mountain-elevation">Elevation: ${mountain.elevation} feet</p>
               <p class="mountain-desc">${mountain.desc}</p>
               <p class="mountain-effort"><strong>Effort:</strong> ${mountain.effort}</p>

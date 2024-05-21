@@ -11,38 +11,96 @@ body {
 .navbar-text {
   font-size: 1.5rem;
   font-weight: bold;
-  letter-spacing: 0.1rem ;
+  letter-spacing: 0.1rem;
 }
 
 .navbar-nav .nav-link {
   color: white !important;
-  letter-spacing: 0.1rem ;
+  letter-spacing: 0.1rem;
 }
 
 /* styling for buttons/ hovers */
 
-.btn.btn-primary {
-    border-radius: 10px;
-    background-color: rgba(97, 108, 108, 0.421);
-    color: black;
-    border-color: black;
-}
-.custom-btn:active,
-.custom-btn:focus,
-.custom-btn.focus {
-    background-color: rgba(0, 128, 0, 0.348); /* Change to the desired color */
-    /* Additional styling as needed */
-    border-color: green; /* Optional: Change border color if needed */
-    /* Optional: Remove box shadow if needed */
-}
 .button-container button {
-    background-color: rgba(97, 108, 108, 0.421);
-    border-radius: 10px;
+  background-color: rgba(0,128,0,0.729); /* Change the background color to green */
+  border-color: green; /* Change the border color to green */
+  color: white; /* Change the text color to white */
+  border-radius: 10px;
 }
-button:active {
-    background-color: rgba(0, 128, 0, 0.606); /* Change to the desired color */
+.button-container button:hover {
+  background-color: darkgreen; /* Change the background color on hover */
+  border-color: darkgreen; /* Change the border color on hover */
 }
 
+.custom-btn {
+  background-color: rgba(0,128,0,0.729); /* Change the background color to green */
+  border-color: green; /* Change the border color to green */
+  color: white; /* Change the text color to white */
+  border-radius: 10px;
+}
 
+.custom-btn:hover {
+  background-color: darkgreen; /* Change the background color on hover */
+  border-color: darkgreen; /* Change the border color on hover */
+}
+/* footer styling */
 
+footer {
+  background-image: url("/images/footerImage.png");
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0); /* Text color */
+  padding: 20px 0; /* Padding top and bottom */
+  width: 100%;
+}
+.transparent-container {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.733
+  ); /* Transparent white background */
+  padding: 30px;
+  border-radius: 5px;
+  border: 0.5px solid #cccccc2c;
+}
 
+.contact-header {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.contact-list {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+.contact-item {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+#email {
+  margin-left: 10px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items to the center */
+  width: 100%;
+  margin-top: 5%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  width: 100%;
+}
+
+.form-group {
+  width: 80%; /* Adjust width as needed */
+  display: flex;
+  justify-content: center; /* Center the message input */
+}
+
+#btnForm {
+  margin-top: 12px; /* Add some space above the button */
+  align-self: center; /* Center the button horizontally */
+}

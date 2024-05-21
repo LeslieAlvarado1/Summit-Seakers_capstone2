@@ -18,7 +18,7 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
-  width: 600px; /* Adjust the width as needed */
+  width: 800px; /* Adjust the width as needed */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto; /* Center the card horizontally */
   margin-bottom: 5%;
@@ -40,5 +40,5 @@
 
 .np-container {
   margin-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 30%;
 }
