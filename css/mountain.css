@@ -1,0 +1,44 @@
+/* Styling for Mountains file */
+
+.mountData-container {
+  max-width: 600px;
+  margin: 5% auto; /* Center horizontally and apply top margin */
+  padding: 20px;
+  background-color: #f8f9fae9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mountain-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9faf3;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 600px; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; /* Center the card horizontally */
+  margin-bottom: 5%;
+}
+
+.mountain-photo {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.mountain-info {
+  margin-top: 20px;
+}
+
+.mountain-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.np-container {
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
