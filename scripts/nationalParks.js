@@ -31,6 +31,9 @@ window.onload = function () {
   // Add event listeners for dropdowns
   statesDropdown.addEventListener("change", searchLocation);
   parkTypeDropdown.addEventListener("change", searchLocation);
+
+   // Display all parks initially
+   displayParks(nationalParksArray);
 };
 
 // Function to toggle dropdowns based on selected radio button
@@ -53,6 +56,17 @@ function clearFilters() {
   // Optionally, trigger search after clearing filters
   searchLocation();
 }
+
+function displayParks(parks) {
+  let message = `${parks.length} National Park(s) to visit:`;
+
+  document.getElementById("parkMessage").innerHTML = message;
+
+  let display = parks.map(parkTemplate).join("");
+
+  document.getElementById("myParks").innerHTML = display;
+}
+
 
 // Search function
 function searchLocation() {
@@ -82,17 +96,11 @@ function searchLocation() {
     );
   }
 
-  let message = `${filteredParks.length} National Park(s) to visit:`;
-
-  document.getElementById("parkMessage").innerHTML = message;
-
-  let display = filteredParks.map(parkTemplate).join("");
-
-  document.getElementById("myParks").innerHTML = display;
+  displayParks(filteredParks);
 }
 
 // Template function
-function parkTemplate(park) {
+/* function parkTemplate(park) {
   return `
       <div class="card" style="width: 18rem;">
           <img src="${park.Image}" class="card-img-top" alt="${park.LocationName}">
@@ -103,7 +111,17 @@ function parkTemplate(park) {
               ${park.Visit ? `<p class="card-text"><a href="#" onclick="openInNewWindow('${park.Visit}')">Visit Site</a></p>` : ''}
           </div>
       </div>`;
-}
+} */
+function parkTemplate(park) {
+  return `
+    <div class="park">
+      <h3>${park.LocationName}</h3>
+      <p>${park.Address}, ${park.City}, ${park.State}, ${park.ZipCode}</p>
+      <p>Phone: ${park.Phone}</p>
+      <img src="${park.Image}" alt="${park.LocationName}">
+    </div>
+  `;
+} 
 
 // Function to open link in a new window
 function openInNewWindow(url) {
