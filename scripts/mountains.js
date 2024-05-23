@@ -1,3 +1,5 @@
+"use strict";
+
 window.onload = function () {
   const mountTypeDropdown = document.getElementById("mountainsSelect");
   // Populate park types dropdown
@@ -19,8 +21,14 @@ async function loadData() {
   );
 
   if (selectedMountain) {
-    const sunTimes = await getSunsetForMountain(selectedMountain.coords.lat, selectedMountain.coords.lng);
-    document.getElementById("app").innerHTML = mountainTemplate(selectedMountain, sunTimes.results);
+    const sunTimes = await getSunsetForMountain(
+      selectedMountain.coords.lat,
+      selectedMountain.coords.lng
+    );
+    document.getElementById("app").innerHTML = mountainTemplate(
+      selectedMountain,
+      sunTimes.results
+    );
   }
 }
 
@@ -48,5 +56,3 @@ async function getSunsetForMountain(lat, lng) {
   let data = await response.json();
   return data;
 }
-
-

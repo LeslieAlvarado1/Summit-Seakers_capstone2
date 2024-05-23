@@ -58,7 +58,7 @@ body {
 
 footer {
   background-size: cover;
-  background-image: url('/images/footerImage.png');
+  background-image: url("/images/footerImage.png");
   background-position: center;
   color: white; /* Text color */
   padding: 20px 0; /* Padding top and bottom */
@@ -67,7 +67,7 @@ footer {
     1px 1px 0 #000;
 }
 .transparent-container {
-  background-color:  rgba(0, 0, 0, 0.354);
+  background-color: rgba(0, 0, 0, 0.354);
   padding: 30px;
   border-radius: 5px;
   border: 0.5px solid #cccccc2c;

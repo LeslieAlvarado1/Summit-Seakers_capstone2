@@ -1,3 +1,5 @@
+"use strict";
+
 const locationsArray = [
   "Alabama",
   "Alaska",

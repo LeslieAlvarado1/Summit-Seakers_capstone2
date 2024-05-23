@@ -32,8 +32,8 @@ window.onload = function () {
   statesDropdown.addEventListener("change", searchLocation);
   parkTypeDropdown.addEventListener("change", searchLocation);
 
-   // Display all parks initially
-   displayParks(nationalParksArray);
+  // Display all parks initially
+  displayParks(nationalParksArray);
 };
 
 // Function to toggle dropdowns based on selected radio button
@@ -45,13 +45,13 @@ function toggleDropdowns() {
   document
     .getElementById("parktype")
     .classList.toggle("hidden", !parkTypeRadio);
-};
+}
 
 // Function to clear selected filters and search input
 function clearFilters() {
-  document.getElementById('inputLocation').value = ''; // Clear search input
-  document.getElementById('states').selectedIndex = 0; // Reset states dropdown
-  document.getElementById('parktype').selectedIndex = 0; // Reset park type dropdown
+  document.getElementById("inputLocation").value = ""; // Clear search input
+  document.getElementById("states").selectedIndex = 0; // Reset states dropdown
+  document.getElementById("parktype").selectedIndex = 0; // Reset park type dropdown
 
   // Optionally, trigger search after clearing filters
   searchLocation();
@@ -105,7 +105,11 @@ function parkTemplate(park) {
           <h3>${park.LocationName}</h3>
           <p>${park.Address}, ${park.City}, ${park.State}, ${park.ZipCode}</p>
           <p>Phone: ${park.Phone}</p>
-          ${park.Visit ? `<p class="card-text"><a href="#" onclick="openInNewWindow('${park.Visit}')">Visit Site</a></p>` : ''}
+          ${
+            park.Visit
+              ? `<p class="card-text"><a href="#" onclick="openInNewWindow('${park.Visit}')">Visit Site</a></p>`
+              : ""
+          }
           <img src="${park.Image}" alt="${park.LocationName}">
       </div>
   `;
@@ -113,5 +117,5 @@ function parkTemplate(park) {
 
 // Function to open link in a new window
 function openInNewWindow(url) {
-  window.open(url, '_blank');
+  window.open(url, "_blank");
 }

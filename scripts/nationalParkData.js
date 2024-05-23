@@ -1,8 +1,11 @@
+"use strict";
+
 const nationalParksArray = [
   {
     LocationID: "ABLI",
     LocationName: "Abraham Lincoln Birthplace National Historical Park",
-    Image: "https://npf-prod.imgix.net/uploads/abraham-lincoln-birthplace.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=704&q=80&w=1056",
+    Image:
+      "https://npf-prod.imgix.net/uploads/abraham-lincoln-birthplace.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=704&q=80&w=1056",
     Address: "2995 Lincoln Farm Road",
     City: "Hodgenville",
     State: "Kentucky",
@@ -13,13 +16,14 @@ const nationalParksArray = [
     Longitude: -85.7340637,
     Location: {
       coordinates: [-85.7340637, 37.535671],
-      type: "Point"
-    }
+      type: "Point",
+    },
   },
   {
     LocationID: "ACAD",
     LocationName: "Acadia National Park",
-    Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2AYmHv6zZNtwOIqr1g00xGAwSPOPu8EvjukFwZO0yZA&s",
+    Image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2AYmHv6zZNtwOIqr1g00xGAwSPOPu8EvjukFwZO0yZA&s",
     Address: "P.O. Box 177",
     City: "Bar Harbor",
     State: "Maine",
@@ -31,13 +35,14 @@ const nationalParksArray = [
     Longitude: -68.2733346,
     Location: {
       coordinates: [-68.2733346, 44.3385559],
-      type: "Point"
-    }
+      type: "Point",
+    },
   },
   {
     LocationID: "ADAM",
     LocationName: "Adams National Historical Park",
-    Image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0b/6d/71/peacefield-with-library.jpg?w=1200&h=-1&s=1",
+    Image:
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0b/6d/71/peacefield-with-library.jpg?w=1200&h=-1&s=1",
     Address: "135 Adams Street",
     City: "Quincy",
     State: "Massachusetts",
@@ -48,13 +53,14 @@ const nationalParksArray = [
     Longitude: -71.011167,
     Location: {
       coordinates: [-71.011167, 42.256412],
-      type: "Point"
-    }
+      type: "Point",
+    },
   },
   {
     LocationID: "AFBG",
     LocationName: "African Burial Ground National Monument",
-    Image: "https://downtownny.com/wp-content/uploads/2022/02/african-burial-blog.jpg",
+    Image:
+      "https://downtownny.com/wp-content/uploads/2022/02/african-burial-blog.jpg",
     Address: "290 Broadway, 1st Floor",
     City: "New York",
     State: "New York",
@@ -65,13 +71,14 @@ const nationalParksArray = [
     Longitude: -74.0053687,
     Location: {
       coordinates: [-74.0053687, 40.7150514],
-      type: "Point"
-    }
+      type: "Point",
+    },
   },
   {
     LocationID: "alka",
     LocationName: "Ala Kahakai National Historic Trail",
-    Image: "https://cdn.bigislandnow.com/file/bigislandnow/2023/05/Ala-Kahakai-National-Historic-Trail.jpg",
+    Image:
+      "https://cdn.bigislandnow.com/file/bigislandnow/2023/05/Ala-Kahakai-National-Historic-Trail.jpg",
     Address: "73-4786 Kanalani Street, #14",
     City: "Kailua-Kona",
     State: "Hawaii",
@@ -82,13 +89,14 @@ const nationalParksArray = [
     Longitude: -156.021329,
     Location: {
       coordinates: [-156.021329, 19.689206],
-      type: "Point"
-    }
+      type: "Point",
+    },
   },
   {
     LocationID: "alag",
     LocationName: "Alagnak Wild River",
-    Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLTbacfFzy83I_zZ7cFf_TyVX4ghBOUyRSrk0fy9lv6Q&s",
+    Image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLTbacfFzy83I_zZ7cFf_TyVX4ghBOUyRSrk0fy9lv6Q&s",
     Address: "P.O. Box 245",
     City: "King Salmon",
     State: "Alaska",
@@ -99,13 +107,14 @@ const nationalParksArray = [
     Longitude: -156.51724,
     Location: {
       coordinates: [-156.51724, 58.756222],
-      type: "Point"
-    }
+      type: "Point",
+    },
   },
   {
     LocationID: "alca",
     LocationName: "Alcatraz Island",
-    Image: "https://www.usatoday.com/gcdn/-mm-/1abbac059a7e6f21ff3aa7e38760a41a48819119/c=0-217-2118-1414/local/-/media/2018/08/17/USATODAY/USATODAY/636701422865855661-GettyImages-632216604.jpg",
+    Image:
+      "https://www.usatoday.com/gcdn/-mm-/1abbac059a7e6f21ff3aa7e38760a41a48819119/c=0-217-2118-1414/local/-/media/2018/08/17/USATODAY/USATODAY/636701422865855661-GettyImages-632216604.jpg",
     Address: 0,
     City: "San Francisco",
     State: "California",
@@ -117,13 +126,14 @@ const nationalParksArray = [
     Longitude: -122.4230122,
     Location: {
       coordinates: [-122.4230122, 37.8266636],
-      type: "Point"
-    }
+      type: "Point",
+    },
   },
   {
     LocationID: "aleu",
     LocationName: "Aleutian World War II National Historic Area",
-    Image: "https://media-cdn.tripadvisor.com/media/photo-s/19/c0/36/a5/aleutian-world-war-ii.jpg",
+    Image:
+      "https://media-cdn.tripadvisor.com/media/photo-s/19/c0/36/a5/aleutian-world-war-ii.jpg",
     Address: "Ounalashka Corporation, P.O. Box 149",
     City: "Unalaska",
     State: "Alaska",
@@ -134,13 +144,14 @@ const nationalParksArray = [
     Longitude: -166.5533823,
     Location: {
       coordinates: [-166.5533823, 53.8845397],
-      type: "Point"
-    }
+      type: "Point",
+    },
   },
   {
     LocationID: "ALPO",
     LocationName: "Allegheny Portage Railroad National Historic Site",
-    Image: "https://npplan.com/wp-content/uploads/2018/11/Allegheny-Portage-RR-01.jpg",
+    Image:
+      "https://npplan.com/wp-content/uploads/2018/11/Allegheny-Portage-RR-01.jpg",
     Address: "110 Federal Park Road",
     City: "Gallitzin",
     State: "Pennsylvania",
@@ -151,13 +162,14 @@ const nationalParksArray = [
     Longitude: -78.5437922,
     Location: {
       coordinates: [-78.5437922, 40.4692629],
-      type: "Point"
-    }
+      type: "Point",
+    },
   },
   {
     LocationID: "AMME",
     LocationName: "American Memorial Park",
-    Image: "https://www.nps.gov/amme/planyourvisit/images/DSC01385e-400.jpg?maxwidth=650&autorotate=false",
+    Image:
+      "https://www.nps.gov/amme/planyourvisit/images/DSC01385e-400.jpg?maxwidth=650&autorotate=false",
     Address: "Superintendent, P.O. Box 5198 CHRB",
     City: "Saipan",
     State: "MP-Japan",
@@ -174,7 +186,8 @@ const nationalParksArray = [
   {
     LocationID: "AMIS",
     LocationName: "Amistad National Recreation Area",
-    Image: "https://www.nps.gov/common/uploads/grid_builder/amis/crop16_9/E8813F7C-DE58-A3D1-E7E01545BB72493B.jpg?width=1300&quality=90&mode=crop",
+    Image:
+      "https://www.nps.gov/common/uploads/grid_builder/amis/crop16_9/E8813F7C-DE58-A3D1-E7E01545BB72493B.jpg?width=1300&quality=90&mode=crop",
     Address: "4121 Veterans Blvd.",
     City: "Del Rio",
     State: "Texas",
@@ -191,7 +204,8 @@ const nationalParksArray = [
   {
     LocationID: "ande",
     LocationName: "Andersonville National Historic Site",
-    Image: "https://nebula.wsimg.com/9db2fea1392b6d4a7d08c7e803c2fbda?AccessKeyId=DD7CCA286400642862F4&disposition=0&alloworigin=1",
+    Image:
+      "https://nebula.wsimg.com/9db2fea1392b6d4a7d08c7e803c2fbda?AccessKeyId=DD7CCA286400642862F4&disposition=0&alloworigin=1",
     Address: "496 Cemetery Road",
     City: "Andersonville",
     State: "Georgia",
@@ -208,7 +222,8 @@ const nationalParksArray = [
   {
     LocationID: "ANJO",
     LocationName: "Andrew Johnson National Historic Site",
-    Image: "https://www.nps.gov/common/uploads/grid_builder/anjo/crop16_9/4C5DF020-B38D-A6C7-687FBDE1FC1BA4CC.jpg?width=640&quality=90&mode=crop",
+    Image:
+      "https://www.nps.gov/common/uploads/grid_builder/anjo/crop16_9/4C5DF020-B38D-A6C7-687FBDE1FC1BA4CC.jpg?width=640&quality=90&mode=crop",
     Address:
       "Mailing Address - Andrew Johnson NHS, 121 Monument Ave., GPS Location - Andrew Johnson NHS Visitor Center, 101 North College St.",
     City: "Greeneville",
@@ -226,7 +241,8 @@ const nationalParksArray = [
   {
     LocationID: "ania",
     LocationName: "Aniakchak National Monument & Preserve",
-    Image: "https://d3qvqlc701gzhm.cloudfront.net/full/5f1f89dfab3b320914a82ec1ad5fa4848a0ec88225f4356bdf23f6c91e1a2803.jpg",
+    Image:
+      "https://d3qvqlc701gzhm.cloudfront.net/full/5f1f89dfab3b320914a82ec1ad5fa4848a0ec88225f4356bdf23f6c91e1a2803.jpg",
     Address: "P.O. Box 245",
     City: "King Salmon",
     State: "Alaska",
@@ -243,7 +259,8 @@ const nationalParksArray = [
   {
     LocationID: "ANTI",
     LocationName: "Antietam National Battlefield",
-    Image: "https://home.nps.gov/common/uploads/grid_builder/anti/crop16_9/A5A7E5A8-935C-3EAB-3E3DEC99AE8DCF85.jpg?width=640&quality=90&mode=crop",
+    Image:
+      "https://home.nps.gov/common/uploads/grid_builder/anti/crop16_9/A5A7E5A8-935C-3EAB-3E3DEC99AE8DCF85.jpg?width=640&quality=90&mode=crop",
     Address: "P.O. Box 158",
     City: "Sharpsburg",
     State: "Maryland",
@@ -261,7 +278,8 @@ const nationalParksArray = [
   {
     LocationID: "apis",
     LocationName: "Apostle Islands National Lakeshore",
-    Image: "https://lakesuperiorcircletour.info/wp-content/uploads/2021/12/Devils-Island-Bayfield-WI-Apostle-Islands-Kathleen-Pine-scaled.jpg",
+    Image:
+      "https://lakesuperiorcircletour.info/wp-content/uploads/2021/12/Devils-Island-Bayfield-WI-Apostle-Islands-Kathleen-Pine-scaled.jpg",
     Address: "415 Washington Ave",
     City: "Bayfield",
     State: "Wisconsin",
@@ -278,7 +296,8 @@ const nationalParksArray = [
   {
     LocationID: "appa",
     LocationName: "Appalachian National Scenic Trail",
-    Image: "https://parktrust.org/wp-content/uploads/2020/08/AT-hogan-hollow-from-mcafee-1024x538-1.jpg",
+    Image:
+      "https://parktrust.org/wp-content/uploads/2020/08/AT-hogan-hollow-from-mcafee-1024x538-1.jpg",
     Address: "P.O. Box 50",
     City: "Harpers Ferry",
     State: "West Virginia",
@@ -296,7 +315,8 @@ const nationalParksArray = [
   {
     LocationID: "ARCH",
     LocationName: "Arches National Park",
-    Image: "https://www.discovermoab.com/wp-content/uploads/2023/11/archesnp.jpg",
+    Image:
+      "https://www.discovermoab.com/wp-content/uploads/2023/11/archesnp.jpg",
     Address: "PO Box 907",
     City: "Moab",
     State: "Utah",
@@ -365,7 +385,8 @@ const nationalParksArray = [
   {
     LocationID: "BADL",
     LocationName: "Badlands National Park",
-    Image: "https://cdn.aarp.net/content/dam/aarp/travel/Domestic/2020/07/1140-badlands-sunset.jpg",
+    Image:
+      "https://cdn.aarp.net/content/dam/aarp/travel/Domestic/2020/07/1140-badlands-sunset.jpg",
     Address: "25216 Ben Reifel Road, P.O. Box 6",
     City: "Interior",
     State: "South Dakota",
@@ -416,7 +437,8 @@ const nationalParksArray = [
   {
     LocationID: "beol",
     LocationName: "Bent's Old Fort National Historic Site",
-    Image: "https://www.cowboysindians.com/wp-content/uploads/2014/07/WW_BentFort-1.jpg",
+    Image:
+      "https://www.cowboysindians.com/wp-content/uploads/2014/07/WW_BentFort-1.jpg",
     Address: "35110 Highway 194 E.",
     City: "La Junta",
     State: "Colorado",
@@ -449,7 +471,8 @@ const nationalParksArray = [
   {
     LocationID: "BIBE",
     LocationName: "Big Bend National Park",
-    Image: "https://cdn.aarp.net/content/dam/aarp/travel/destinations/2020/11/1140-big-bend-national-park-hero.jpg",
+    Image:
+      "https://cdn.aarp.net/content/dam/aarp/travel/destinations/2020/11/1140-big-bend-national-park-hero.jpg",
     Address: "PO Box 129",
     City: "Big Bend National Park",
     State: "Texas",
@@ -533,7 +556,8 @@ const nationalParksArray = [
   {
     LocationID: "bisc",
     LocationName: "Biscayne National Park",
-    Image: "https://www.aarp.org/content/dam/aarp/travel/national-parks/2022/12/1140-boca-chita-key-florida.jpg",
+    Image:
+      "https://www.aarp.org/content/dam/aarp/travel/national-parks/2022/12/1140-boca-chita-key-florida.jpg",
     Address: "Biscayne National Park, 9700 SW 328 Street",
     City: "Homestead",
     State: "Florida",
@@ -551,7 +575,8 @@ const nationalParksArray = [
   {
     LocationID: "blca",
     LocationName: "Black Canyon of the Gunnison National Park",
-    Image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_640,q_60,w_1600/v1/clients/montroseco/home_slide_e18c09bf-8ee2-4400-9ddc-b0eaf1487ae1.png",
+    Image:
+      "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_640,q_60,w_1600/v1/clients/montroseco/home_slide_e18c09bf-8ee2-4400-9ddc-b0eaf1487ae1.png",
     Address: "National Park Service, 102 Elk Creek",
     City: "Gunnison",
     State: "Colorado",
@@ -748,7 +773,8 @@ const nationalParksArray = [
   {
     LocationID: "cach",
     LocationName: "Canyon de Chelly National Monument",
-    Image: "https://annemckinnell.com/blog/wp-content/uploads/2015/07/arizona_20150329__DSC2324-Edit.jpg",
+    Image:
+      "https://annemckinnell.com/blog/wp-content/uploads/2015/07/arizona_20150329__DSC2324-Edit.jpg",
     Address: "PO Box 588",
     City: "Chinle",
     State: "Arizona",
@@ -910,7 +936,8 @@ const nationalParksArray = [
   {
     LocationID: "cagr",
     LocationName: "Casa Grande Ruins National Monument",
-    Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStT7y9FBtmYcTXHyKs-Wu-WW3VbBy1ZppICu9jEmcAwg&s",
+    Image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStT7y9FBtmYcTXHyKs-Wu-WW3VbBy1ZppICu9jEmcAwg&s",
     Address: "Casa Grande Ruins National Monument, 1100 West Ruins Drive",
     City: "Coolidge",
     State: "Arizona",
@@ -1137,7 +1164,8 @@ const nationalParksArray = [
   {
     LocationID: "chir",
     LocationName: "Chiricahua National Monument",
-    Image: "https://www.azcentral.com/gcdn/-mm-/3c218d79525ddd55982f12c9a05bd477faf2adbc/c=0-128-2439-1506/local/-/media/2016/02/24/Phoenix/Phoenix/635919303154277874-PNIBrd2-05-30-2015-Republic-1-D006--2015-05-28-IMG-Chir-1967.jpg-1-1-6EAU06QU-L619334219-IMG-Chir-1967.jpg-1-1-6EAU06QU.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
+    Image:
+      "https://www.azcentral.com/gcdn/-mm-/3c218d79525ddd55982f12c9a05bd477faf2adbc/c=0-128-2439-1506/local/-/media/2016/02/24/Phoenix/Phoenix/635919303154277874-PNIBrd2-05-30-2015-Republic-1-D006--2015-05-28-IMG-Chir-1967.jpg-1-1-6EAU06QU-L619334219-IMG-Chir-1967.jpg-1-1-6EAU06QU.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
     Address: "Superintendent, 12856 E. Rhyolite Creek RD",
     City: "Willcox",
     State: "Arizona",
@@ -1186,7 +1214,8 @@ const nationalParksArray = [
   {
     LocationID: "colm",
     LocationName: "Colorado National Monument",
-    Image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_379,q_65,w_639/v1/clients/grandjunctionco/colorado_national_monument_winter_63e2fbec-9871-40a7-81e4-d906e29ac510.jpg",
+    Image:
+      "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_379,q_65,w_639/v1/clients/grandjunctionco/colorado_national_monument_winter_63e2fbec-9871-40a7-81e4-d906e29ac510.jpg",
     Address: "Colorado National Monument, 7 M S of Fruita Hwy 340",
     City: "Fruita",
     State: "Colorado",
@@ -1203,7 +1232,8 @@ const nationalParksArray = [
   {
     LocationID: "coro",
     LocationName: "Coronado National Memorial",
-    Image: "https://www.adventurousway.com/images/i/wvr97gfn4ea6/2048w/national-parks/coronado-national-memorial/coronado-national-memorial.jpeg",
+    Image:
+      "https://www.adventurousway.com/images/i/wvr97gfn4ea6/2048w/national-parks/coronado-national-memorial/coronado-national-memorial.jpeg",
     Address: "4101 East Montezuma Canyon Road",
     City: "Hereford",
     State: "Arizona",
@@ -2274,7 +2304,8 @@ const nationalParksArray = [
   {
     LocationID: "GLCA",
     LocationName: "Glen Canyon National Recreation Area",
-    Image: "https://www.nps.gov/common/uploads/grid_builder/glca/crop16_9/FF0AEDF2-FC55-8E22-B57E656FFF709AF9.jpg?width=640&quality=90&mode=crop",
+    Image:
+      "https://www.nps.gov/common/uploads/grid_builder/glca/crop16_9/FF0AEDF2-FC55-8E22-B57E656FFF709AF9.jpg?width=640&quality=90&mode=crop",
     Address: "Glen Canyon NRA, PO Box 1507",
     City: "Page",
     State: "Arizona",
@@ -2355,7 +2386,8 @@ const nationalParksArray = [
   {
     LocationID: "grca",
     LocationName: "Grand Canyon National Park",
-    Image: "https://cdn.outsideonline.com/wp-content/uploads/2018/11/20/outside-guide-grand-canyon_h.jpg?crop=25:14&width=500&enable=upscale",
+    Image:
+      "https://cdn.outsideonline.com/wp-content/uploads/2018/11/20/outside-guide-grand-canyon_h.jpg?crop=25:14&width=500&enable=upscale",
     Address: "Grand Canyon National Park, P.O. Box 129",
     City: "Grand Canyon",
     State: "Arizona",
@@ -2372,7 +2404,8 @@ const nationalParksArray = [
   {
     LocationID: "para",
     LocationName: "Grand Canyon-Parashant National Monument",
-    Image:"https://i0.wp.com/www.azbackroads.com/wp-content/uploads/PSX_20210505_155536-scaled.jpg?fit=1200%2C575&ssl=1",
+    Image:
+      "https://i0.wp.com/www.azbackroads.com/wp-content/uploads/PSX_20210505_155536-scaled.jpg?fit=1200%2C575&ssl=1",
     Address:
       "Grand Canyon-Parashant National Monument, 345 East Riverside Drive",
     City: "St. George",
@@ -2568,7 +2601,8 @@ const nationalParksArray = [
   {
     LocationID: "hale",
     LocationName: "Haleakala National Park",
-    Image:"https://cdn.outsideonline.com/wp-content/uploads/2022/12/haleakala-crater-slidingsands_h.jpg",
+    Image:
+      "https://cdn.outsideonline.com/wp-content/uploads/2022/12/haleakala-crater-slidingsands_h.jpg",
     Address: "PO Box 369",
     City: "Makawao",
     State: "Hawaii",
@@ -2666,7 +2700,8 @@ const nationalParksArray = [
   {
     LocationID: "havo",
     LocationName: "Hawai'i Volcanoes National Park",
-    Image: "https://www.nps.gov/havo/learn/news/images/20230607-SA100974-200.jpg",
+    Image:
+      "https://www.nps.gov/havo/learn/news/images/20230607-SA100974-200.jpg",
     Address: "Hawai`i Volcanoes National Park, P.O. Box 52",
     City: "Hawai`i National Park",
     State: "Hawaii",
@@ -2699,7 +2734,8 @@ const nationalParksArray = [
   {
     LocationID: "pima",
     LocationName: "Hohokam Pima National Monument",
-    Image: "https://cdn.britannica.com/23/116723-004-07B5E59A/Casa-Grande-Ruins-National-Monument-Ariz-Coolidge.jpg?w=300&h=169&c=crop",
+    Image:
+      "https://cdn.britannica.com/23/116723-004-07B5E59A/Casa-Grande-Ruins-National-Monument-Ariz-Coolidge.jpg?w=300&h=169&c=crop",
     Address: "Hohokam Pima National Monument",
     City: "Chandler",
     State: "Arizona",
@@ -2828,7 +2864,8 @@ const nationalParksArray = [
   {
     LocationID: "hutar",
     LocationName: "Hubbell Trading Post National Historic Site",
-    Image: "https://www.arizonahighways.com/sites/default/files/2021-08/Hubbell.jpg",
+    Image:
+      "https://www.arizonahighways.com/sites/default/files/2021-08/Hubbell.jpg",
     Address: "Hubbell Trading Post NHS, P.O. Box 150",
     City: "Ganado",
     State: "Arizona",
@@ -2845,7 +2882,8 @@ const nationalParksArray = [
   {
     LocationID: "iatr",
     LocationName: "Ice Age National Scenic Trail",
-    Image:"https://blog-assets.thedyrt.com/uploads/2018/11/shutterstock_1086953804-e1542066734975.jpg",
+    Image:
+      "https://blog-assets.thedyrt.com/uploads/2018/11/shutterstock_1086953804-e1542066734975.jpg",
     Address: "National Park Service, 700 Rayovac Drive Suite 100",
     City: "Madison",
     State: "Wisconsin",
@@ -3878,7 +3916,8 @@ const nationalParksArray = [
   {
     LocationID: "NATT",
     LocationName: "Natchez Trace National Scenic Trail",
-    Image:"https://www.nps.gov/common/uploads/grid_builder/natt/crop16_9/DFCF7564-DB51-524A-B1C33F96B8ED9581.jpg?width=640&quality=90&mode=crop",
+    Image:
+      "https://www.nps.gov/common/uploads/grid_builder/natt/crop16_9/DFCF7564-DB51-524A-B1C33F96B8ED9581.jpg?width=640&quality=90&mode=crop",
     Address: "Natchez Trace National Scenic Trail, 2680 Natchez Trace Parkway",
     City: "Tupelo",
     State: "Mississippi",
@@ -4138,7 +4177,8 @@ const nationalParksArray = [
   {
     LocationID: "NOCO",
     LocationName: "North Country National Scenic Trail",
-    Image:"https://widnr.widen.net/content/7svhurziim/jpeg/Parks_Topic-Image_Pattison-Waterfall.jpg?w=870&h=580&keep=c&crop=yes&quality=80&x.app=portals",
+    Image:
+      "https://widnr.widen.net/content/7svhurziim/jpeg/Parks_Topic-Image_Pattison-Waterfall.jpg?w=870&h=580&keep=c&crop=yes&quality=80&x.app=portals",
     Address: "700 Rayovac Dr. Suite 100",
     City: "Madison",
     State: "Wisconsin",
@@ -4558,7 +4598,8 @@ const nationalParksArray = [
   {
     LocationID: "POHE",
     LocationName: "Potomac Heritage National Scenic Trail",
-    Image:"https://content.sierraclub.org/outings/sites/content.sierraclub.org.outings/files/styles/trip-main/public/trips/main-images/19200_2_GlennGillis.jpg?itok=XmAoU6nv",
+    Image:
+      "https://content.sierraclub.org/outings/sites/content.sierraclub.org.outings/files/styles/trip-main/public/trips/main-images/19200_2_GlennGillis.jpg?itok=XmAoU6nv",
     Address: "Potomac Heritage National Scenic Trail Office, Post Office Box B",
     City: "Harpers Ferry",
     State: "West Virginia",

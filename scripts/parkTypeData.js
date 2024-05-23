@@ -1,3 +1,5 @@
+"use strict";
+
 const parkTypesArray = [
   "National Park",
   "National Monument",
