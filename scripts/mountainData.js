@@ -528,5 +528,3 @@ const mountainsArray = [
         }
     }
 ]
-
-console.log(mountainsArray.length)

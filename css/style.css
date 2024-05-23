@@ -63,6 +63,7 @@ footer {
   color: rgb(0, 0, 0); /* Text color */
   padding: 20px 0; /* Padding top and bottom */
   width: 100%;
+  background-color: #c7c7c763;
 }
 .transparent-container {
   background-color: #ddddddde;

@@ -2,8 +2,7 @@ const nationalParksArray = [
   {
     LocationID: "ABLI",
     LocationName: "Abraham Lincoln Birthplace National Historical Park",
-    Image:
-      "https://npf-prod.imgix.net/uploads/abraham-lincoln-birthplace.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=704&q=80&w=1056",
+    Image: "https://npf-prod.imgix.net/uploads/abraham-lincoln-birthplace.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=704&q=80&w=1056",
     Address: "2995 Lincoln Farm Road",
     City: "Hodgenville",
     State: "Kentucky",
@@ -14,12 +13,13 @@ const nationalParksArray = [
     Longitude: -85.7340637,
     Location: {
       coordinates: [-85.7340637, 37.535671],
-      type: "Point",
-    },
+      type: "Point"
+    }
   },
   {
     LocationID: "ACAD",
     LocationName: "Acadia National Park",
+    Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2AYmHv6zZNtwOIqr1g00xGAwSPOPu8EvjukFwZO0yZA&s",
     Address: "P.O. Box 177",
     City: "Bar Harbor",
     State: "Maine",
@@ -31,12 +31,13 @@ const nationalParksArray = [
     Longitude: -68.2733346,
     Location: {
       coordinates: [-68.2733346, 44.3385559],
-      type: "Point",
-    },
+      type: "Point"
+    }
   },
   {
     LocationID: "ADAM",
     LocationName: "Adams National Historical Park",
+    Image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/0b/6d/71/peacefield-with-library.jpg?w=1200&h=-1&s=1",
     Address: "135 Adams Street",
     City: "Quincy",
     State: "Massachusetts",
@@ -47,16 +48,15 @@ const nationalParksArray = [
     Longitude: -71.011167,
     Location: {
       coordinates: [-71.011167, 42.256412],
-      type: "Point",
-    },
+      type: "Point"
+    }
   },
   {
     LocationID: "AFBG",
     LocationName: "African Burial Ground National Monument",
+    Image: "https://downtownny.com/wp-content/uploads/2022/02/african-burial-blog.jpg",
     Address: "290 Broadway, 1st Floor",
     City: "New York",
-    Image:
-      "https://npf-prod.imgix.net/uploads/abraham-lincoln-birthplace.jpg?auto=compress%2Cformat&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=704&q=80&w=1056",
     State: "New York",
     ZipCode: 10007,
     Phone: "(212) 637-2019",
@@ -65,12 +65,13 @@ const nationalParksArray = [
     Longitude: -74.0053687,
     Location: {
       coordinates: [-74.0053687, 40.7150514],
-      type: "Point",
-    },
+      type: "Point"
+    }
   },
   {
     LocationID: "alka",
     LocationName: "Ala Kahakai National Historic Trail",
+    Image: "https://cdn.bigislandnow.com/file/bigislandnow/2023/05/Ala-Kahakai-National-Historic-Trail.jpg",
     Address: "73-4786 Kanalani Street, #14",
     City: "Kailua-Kona",
     State: "Hawaii",
@@ -81,12 +82,13 @@ const nationalParksArray = [
     Longitude: -156.021329,
     Location: {
       coordinates: [-156.021329, 19.689206],
-      type: "Point",
-    },
+      type: "Point"
+    }
   },
   {
     LocationID: "alag",
     LocationName: "Alagnak Wild River",
+    Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLTbacfFzy83I_zZ7cFf_TyVX4ghBOUyRSrk0fy9lv6Q&s",
     Address: "P.O. Box 245",
     City: "King Salmon",
     State: "Alaska",
@@ -97,12 +99,13 @@ const nationalParksArray = [
     Longitude: -156.51724,
     Location: {
       coordinates: [-156.51724, 58.756222],
-      type: "Point",
-    },
+      type: "Point"
+    }
   },
   {
     LocationID: "alca",
     LocationName: "Alcatraz Island",
+    Image: "https://www.usatoday.com/gcdn/-mm-/1abbac059a7e6f21ff3aa7e38760a41a48819119/c=0-217-2118-1414/local/-/media/2018/08/17/USATODAY/USATODAY/636701422865855661-GettyImages-632216604.jpg",
     Address: 0,
     City: "San Francisco",
     State: "California",
@@ -114,12 +117,13 @@ const nationalParksArray = [
     Longitude: -122.4230122,
     Location: {
       coordinates: [-122.4230122, 37.8266636],
-      type: "Point",
-    },
+      type: "Point"
+    }
   },
   {
     LocationID: "aleu",
     LocationName: "Aleutian World War II National Historic Area",
+    Image: "https://media-cdn.tripadvisor.com/media/photo-s/19/c0/36/a5/aleutian-world-war-ii.jpg",
     Address: "Ounalashka Corporation, P.O. Box 149",
     City: "Unalaska",
     State: "Alaska",
@@ -130,12 +134,13 @@ const nationalParksArray = [
     Longitude: -166.5533823,
     Location: {
       coordinates: [-166.5533823, 53.8845397],
-      type: "Point",
-    },
+      type: "Point"
+    }
   },
   {
     LocationID: "ALPO",
     LocationName: "Allegheny Portage Railroad National Historic Site",
+    Image: "https://npplan.com/wp-content/uploads/2018/11/Allegheny-Portage-RR-01.jpg",
     Address: "110 Federal Park Road",
     City: "Gallitzin",
     State: "Pennsylvania",
@@ -146,12 +151,13 @@ const nationalParksArray = [
     Longitude: -78.5437922,
     Location: {
       coordinates: [-78.5437922, 40.4692629],
-      type: "Point",
-    },
+      type: "Point"
+    }
   },
   {
     LocationID: "AMME",
     LocationName: "American Memorial Park",
+    Image: "https://www.nps.gov/amme/planyourvisit/images/DSC01385e-400.jpg?maxwidth=650&autorotate=false",
     Address: "Superintendent, P.O. Box 5198 CHRB",
     City: "Saipan",
     State: "MP-Japan",
@@ -168,6 +174,7 @@ const nationalParksArray = [
   {
     LocationID: "AMIS",
     LocationName: "Amistad National Recreation Area",
+    Image: "https://www.nps.gov/common/uploads/grid_builder/amis/crop16_9/E8813F7C-DE58-A3D1-E7E01545BB72493B.jpg?width=1300&quality=90&mode=crop",
     Address: "4121 Veterans Blvd.",
     City: "Del Rio",
     State: "Texas",
@@ -184,6 +191,7 @@ const nationalParksArray = [
   {
     LocationID: "ande",
     LocationName: "Andersonville National Historic Site",
+    Image: "https://nebula.wsimg.com/9db2fea1392b6d4a7d08c7e803c2fbda?AccessKeyId=DD7CCA286400642862F4&disposition=0&alloworigin=1",
     Address: "496 Cemetery Road",
     City: "Andersonville",
     State: "Georgia",
@@ -200,6 +208,7 @@ const nationalParksArray = [
   {
     LocationID: "ANJO",
     LocationName: "Andrew Johnson National Historic Site",
+    Image: "https://www.nps.gov/common/uploads/grid_builder/anjo/crop16_9/4C5DF020-B38D-A6C7-687FBDE1FC1BA4CC.jpg?width=640&quality=90&mode=crop",
     Address:
       "Mailing Address - Andrew Johnson NHS, 121 Monument Ave., GPS Location - Andrew Johnson NHS Visitor Center, 101 North College St.",
     City: "Greeneville",
@@ -217,6 +226,7 @@ const nationalParksArray = [
   {
     LocationID: "ania",
     LocationName: "Aniakchak National Monument & Preserve",
+    Image: "https://d3qvqlc701gzhm.cloudfront.net/full/5f1f89dfab3b320914a82ec1ad5fa4848a0ec88225f4356bdf23f6c91e1a2803.jpg",
     Address: "P.O. Box 245",
     City: "King Salmon",
     State: "Alaska",
@@ -233,6 +243,7 @@ const nationalParksArray = [
   {
     LocationID: "ANTI",
     LocationName: "Antietam National Battlefield",
+    Image: "https://home.nps.gov/common/uploads/grid_builder/anti/crop16_9/A5A7E5A8-935C-3EAB-3E3DEC99AE8DCF85.jpg?width=640&quality=90&mode=crop",
     Address: "P.O. Box 158",
     City: "Sharpsburg",
     State: "Maryland",
@@ -728,6 +739,7 @@ const nationalParksArray = [
   {
     LocationID: "cach",
     LocationName: "Canyon de Chelly National Monument",
+    Image: "https://annemckinnell.com/blog/wp-content/uploads/2015/07/arizona_20150329__DSC2324-Edit.jpg",
     Address: "PO Box 588",
     City: "Chinle",
     State: "Arizona",
@@ -889,6 +901,7 @@ const nationalParksArray = [
   {
     LocationID: "cagr",
     LocationName: "Casa Grande Ruins National Monument",
+    Image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStT7y9FBtmYcTXHyKs-Wu-WW3VbBy1ZppICu9jEmcAwg&s",
     Address: "Casa Grande Ruins National Monument, 1100 West Ruins Drive",
     City: "Coolidge",
     State: "Arizona",
@@ -1115,6 +1128,7 @@ const nationalParksArray = [
   {
     LocationID: "chir",
     LocationName: "Chiricahua National Monument",
+    Image: "https://www.azcentral.com/gcdn/-mm-/3c218d79525ddd55982f12c9a05bd477faf2adbc/c=0-128-2439-1506/local/-/media/2016/02/24/Phoenix/Phoenix/635919303154277874-PNIBrd2-05-30-2015-Republic-1-D006--2015-05-28-IMG-Chir-1967.jpg-1-1-6EAU06QU-L619334219-IMG-Chir-1967.jpg-1-1-6EAU06QU.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
     Address: "Superintendent, 12856 E. Rhyolite Creek RD",
     City: "Willcox",
     State: "Arizona",
@@ -1179,6 +1193,7 @@ const nationalParksArray = [
   {
     LocationID: "coro",
     LocationName: "Coronado National Memorial",
+    Image: "https://www.adventurousway.com/images/i/wvr97gfn4ea6/2048w/national-parks/coronado-national-memorial/coronado-national-memorial.jpeg",
     Address: "4101 East Montezuma Canyon Road",
     City: "Hereford",
     State: "Arizona",
