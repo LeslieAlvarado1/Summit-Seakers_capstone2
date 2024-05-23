@@ -57,7 +57,7 @@ body {
 /* footer styling */
 
 footer {
-  background-image: url("/images/footerImage.png");
+  background-image: url("/footerImage.png");
   background-size: cover;
   background-position: center;
   color: rgb(0, 0, 0); /* Text color */
@@ -140,8 +140,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  text-align: center;
   z-index: 2; /* Ensure overlay is above the images */
 }
 
@@ -155,4 +153,15 @@ footer {
 .owl-carousel .item {
   position: relative;
   z-index: 1;
+}
+
+/* styles.css */
+.outlined-text {
+  color: rgb(224, 224, 224);
+  text-align: center;
+  text-shadow: 
+      -1px -1px 0 #000, 
+      1px -1px 0 #000, 
+      -1px 1px 0 #000, 
+      1px 1px 0 #000;
 }
