@@ -9,8 +9,8 @@ This project is an interactive website designed to inspire and inform outdoor en
 ## Features
 
 Homepage: Features a carousel with images of national parks, welcoming users to the site.
-National Parks Explorer: Allows users to search for national parks by state, park type, or park name. The results display key information and a link to the park's website.
-Mountains Explorer: Provides details on various mountains, including elevation, description, and coordinates. Users can also view the sunrise and sunset times for each mountain.
+National Parks Explorer: Allows users to search for national parks by state, park type, or park name. The results display information and a link to the park's website.
+Mountains Explorer: Provides details on various mountains, the elevation, description, and coordinates. Users can also view the sunrise and sunset times for each mountain.
 
 ## Project Pages
 
