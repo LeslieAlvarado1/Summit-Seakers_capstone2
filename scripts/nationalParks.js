@@ -114,15 +114,16 @@ function displayParks(parks) {
 
 function parkTemplate(park) {
   return `
-    <div class="park">
-      <h3>${park.LocationName}</h3>
-      <p>${park.Address}, ${park.City}, ${park.State}, ${park.ZipCode}</p>
-      <p>Phone: ${park.Phone}</p>
-      ${park.Visit ? `<p class="card-text"><a href="#" onclick="openInNewWindow('${park.Visit}')">Visit Site</a></p>` : ''}
-      <img src="${park.Image}" alt="${park.LocationName}">
-    </div>
+      <div class="park">
+          <div class="overlay"></div>
+          <h3>${park.LocationName}</h3>
+          <p>${park.Address}, ${park.City}, ${park.State}, ${park.ZipCode}</p>
+          <p>Phone: ${park.Phone}</p>
+          ${park.Visit ? `<p class="card-text"><a href="#" onclick="openInNewWindow('${park.Visit}')">Visit Site</a></p>` : ''}
+          <img src="${park.Image}" alt="${park.LocationName}">
+      </div>
   `;
-} 
+}
 
 // Function to open link in a new window
 function openInNewWindow(url) {
