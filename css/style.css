@@ -57,7 +57,7 @@ body {
 /* footer styling */
 
 footer {
-  background-image: url("/footerImage.png");
+  background-image: url("/images/footerImage.png");
   background-size: cover;
   background-position: center;
   color: rgb(0, 0, 0); /* Text color */
