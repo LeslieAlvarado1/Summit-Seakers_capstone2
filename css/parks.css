@@ -130,7 +130,7 @@ body {
 }
 
 .park:hover .overlay {
-  background-color: rgba(14, 95, 8, 0.445);
+  background-color: rgba(18, 114, 11, 0.753);
 }
 
 .park img {
@@ -142,7 +142,13 @@ body {
 }
 
 .park:hover h3, .park:hover p, .park:hover .card-text {
-  color: white;
+  color: rgb(255, 255, 255);
   position: relative;
   z-index: 30;
+  text-shadow: 
+  -0.5px -0.5px 0 #000, 
+  0.5px -0.5px 0 #000, 
+  -0.5px 0.5px 0 #000, 
+  0.5px 0.5px 0 #000;
+
 }
