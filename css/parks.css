@@ -1,7 +1,7 @@
 /* Styling for National Parks file */
 
 body {
-  background-color: rgba(121, 121, 132, 0.158);
+  background-color: rgba(0, 0, 0, 0.16);
 }
 .searchBtn-container {
   display: flex;
@@ -10,7 +10,7 @@ body {
   max-width: 600px;
   margin: 5% auto; /* Center horizontally and apply top margin */
   padding: 20px;
-  background-color: #f8f9faed;
+  background-color: #edededed;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -68,7 +68,7 @@ body {
   flex-direction: column;
   align-items: center; /* Center items horizontally */
   justify-content: center; /* Center items vertically if needed */
-  background-color: #fff; /* Optional: Add a background color to the park cards */
+  background-color: #ffffffc9; /* Optional: Add a background color to the park cards */
   padding: 15px; /* Optional: Add padding to the park cards */
   border-radius: 8px; /* Optional: Add border radius to the park cards */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for better appearance */
@@ -90,7 +90,7 @@ body {
 }
 
 .displayBox {
-  background-color: #f8f9faed;
+  background-color: #edededed;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;

@@ -1,12 +1,12 @@
 /* Styling for Mountains file */
 body {
-  background-color: rgba(121, 121, 132, 0.158);
+  background-color: rgba(0, 0, 0, 0.16);
 }
 .mountData-container {
   max-width: 600px;
   margin: 5% auto; /* Center horizontally and apply top margin */
   padding: 20px;
-  background-color: #f8f9faed;
+  background-color: #edededed;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
