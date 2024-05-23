@@ -1,4 +1,4 @@
-## Summit-Seakers_capstone2
+## Summit-Seekers_capstone2
 
 Capstone 2 National Parks website.
 
