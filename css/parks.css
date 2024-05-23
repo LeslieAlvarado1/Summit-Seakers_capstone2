@@ -56,31 +56,31 @@ body {
 /* Added CSS for the grid layout */
 
 .park-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px; /* Adjust the gap between cards as needed */
-    justify-content: center; /* Centers the grid items horizontally */
-    padding: 0 20px; /* Optional: Add padding to the container to ensure spacing from the edges */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px; /* Adjust the gap between cards as needed */
+  justify-content: center; /* Centers the grid items horizontally */
+  padding: 0 20px; /* Optional: Add padding to the container to ensure spacing from the edges */
 }
 .park {
-    width: 18rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically if needed */
-    background-color: #fff; /* Optional: Add a background color to the park cards */
-    padding: 15px; /* Optional: Add padding to the park cards */
-    border-radius: 8px; /* Optional: Add border radius to the park cards */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for better appearance */
-    text-align: center; /* Optional: Center text inside the card */
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically if needed */
+  background-color: #fff; /* Optional: Add a background color to the park cards */
+  padding: 15px; /* Optional: Add padding to the park cards */
+  border-radius: 8px; /* Optional: Add border radius to the park cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for better appearance */
+  text-align: center; /* Optional: Center text inside the card */
 }
 
 .park img {
-    width: 100%; /* Ensures the image takes the full width of the park card */
-    height: auto; /* Maintain the aspect ratio of the image */
-    max-height: 200px; /* Optionally, set a maximum height */
-    object-fit: cover; /* Ensures the image covers the area, maintaining aspect ratio */
-    margin: 15px 0; /* Optional: Add margin to space out the image */
+  width: 100%; /* Ensures the image takes the full width of the park card */
+  height: auto; /* Maintain the aspect ratio of the image */
+  max-height: 200px; /* Optionally, set a maximum height */
+  object-fit: cover; /* Ensures the image covers the area, maintaining aspect ratio */
+  margin: 15px 0; /* Optional: Add margin to space out the image */
 }
 
 #parkMessage {
@@ -100,9 +100,12 @@ body {
   margin-bottom: 5%;
 }
 
+.dropdowns-container {
+  margin-top: 15px; /* Adjust this value to add space between dropdowns and radio buttons */
+}
+
 /* hover css */
 
-/* styles.css */
 .park {
   position: relative;
   overflow: hidden;
@@ -141,14 +144,55 @@ body {
   z-index: 20;
 }
 
-.park:hover h3, .park:hover p, .park:hover .card-text {
+.park:hover h3,
+.park:hover p,
+.park:hover .card-text {
   color: rgb(255, 255, 255);
   position: relative;
   z-index: 30;
-  text-shadow: 
-  -0.5px -0.5px 0 #000, 
-  0.5px -0.5px 0 #000, 
-  -0.5px 0.5px 0 #000, 
-  0.5px 0.5px 0 #000;
+  text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+}
 
+/* Hide the default radio button */
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+}
+
+/* Create a custom radio button */
+input[type="radio"] + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* Custom radio button appearance */
+input[type="radio"] + label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  border: 1px solid #000; /* Border of the radio button */
+  border-radius: 50%;
+  background-color: #fff; /* Background color of the radio button */
+  box-sizing: border-box;
+}
+
+/* Change the background color when the radio button is checked */
+input[type="radio"]:checked + label::before {
+  background-color: rgba(0, 128, 0, 0.729);
+  border-color: green;
+}
+
+/* Change background color when hovered */
+input[type="radio"] + label:hover::before {
+  background-color: darkgreen; /* Change to desired color */
 }

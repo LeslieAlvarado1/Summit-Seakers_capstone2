@@ -45,12 +45,14 @@
                         <input type="radio" id="parkTypeRadio" name="searchType" value="parkType">
                         <label for="parkTypeRadio">Park Type</label>
                     </div>
-                    <select id="states" class="hidden">
-                        <option value="">Select Location</option>
-                    </select>
-                    <select id="parktype" class="hidden">
-                        <option value="">Select Park Type</option>
-                    </select>
+                    <div class="dropdowns-container"> <!-- Container for dropdowns -->
+                        <select id="states" class="hidden">
+                            <option value="">Select Location</option>
+                        </select>
+                        <select id="parktype" class="hidden">
+                            <option value="">Select Park Type</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="right-container">
                     <input type="text" name="searchLocation" id="inputLocation" placeholder="Search by park name">
