@@ -261,6 +261,7 @@ const nationalParksArray = [
   {
     LocationID: "apis",
     LocationName: "Apostle Islands National Lakeshore",
+    Image: "https://lakesuperiorcircletour.info/wp-content/uploads/2021/12/Devils-Island-Bayfield-WI-Apostle-Islands-Kathleen-Pine-scaled.jpg",
     Address: "415 Washington Ave",
     City: "Bayfield",
     State: "Wisconsin",
@@ -277,6 +278,7 @@ const nationalParksArray = [
   {
     LocationID: "appa",
     LocationName: "Appalachian National Scenic Trail",
+    Image: "https://parktrust.org/wp-content/uploads/2020/08/AT-hogan-hollow-from-mcafee-1024x538-1.jpg",
     Address: "P.O. Box 50",
     City: "Harpers Ferry",
     State: "West Virginia",
@@ -294,6 +296,7 @@ const nationalParksArray = [
   {
     LocationID: "ARCH",
     LocationName: "Arches National Park",
+    Image: "https://www.discovermoab.com/wp-content/uploads/2023/11/archesnp.jpg",
     Address: "PO Box 907",
     City: "Moab",
     State: "Utah",
@@ -327,6 +330,7 @@ const nationalParksArray = [
   {
     LocationID: "ASIS",
     LocationName: "Assateague Island National Seashore",
+    Image: "https://naturallyamazing.com/americasparks/63202125522AM.jpg",
     Address: "7206 National Seashore Lane",
     City: "Berlin",
     State: "Maryland",
@@ -361,6 +365,7 @@ const nationalParksArray = [
   {
     LocationID: "BADL",
     LocationName: "Badlands National Park",
+    Image: "https://cdn.aarp.net/content/dam/aarp/travel/Domestic/2020/07/1140-badlands-sunset.jpg",
     Address: "25216 Ben Reifel Road, P.O. Box 6",
     City: "Interior",
     State: "South Dakota",
@@ -411,6 +416,7 @@ const nationalParksArray = [
   {
     LocationID: "beol",
     LocationName: "Bent's Old Fort National Historic Site",
+    Image: "https://www.cowboysindians.com/wp-content/uploads/2014/07/WW_BentFort-1.jpg",
     Address: "35110 Highway 194 E.",
     City: "La Junta",
     State: "Colorado",
@@ -443,6 +449,7 @@ const nationalParksArray = [
   {
     LocationID: "BIBE",
     LocationName: "Big Bend National Park",
+    Image: "https://cdn.aarp.net/content/dam/aarp/travel/destinations/2020/11/1140-big-bend-national-park-hero.jpg",
     Address: "PO Box 129",
     City: "Big Bend National Park",
     State: "Texas",
@@ -526,6 +533,7 @@ const nationalParksArray = [
   {
     LocationID: "bisc",
     LocationName: "Biscayne National Park",
+    Image: "https://www.aarp.org/content/dam/aarp/travel/national-parks/2022/12/1140-boca-chita-key-florida.jpg",
     Address: "Biscayne National Park, 9700 SW 328 Street",
     City: "Homestead",
     State: "Florida",
@@ -543,6 +551,7 @@ const nationalParksArray = [
   {
     LocationID: "blca",
     LocationName: "Black Canyon of the Gunnison National Park",
+    Image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_640,q_60,w_1600/v1/clients/montroseco/home_slide_e18c09bf-8ee2-4400-9ddc-b0eaf1487ae1.png",
     Address: "National Park Service, 102 Elk Creek",
     City: "Gunnison",
     State: "Colorado",
@@ -1177,6 +1186,7 @@ const nationalParksArray = [
   {
     LocationID: "colm",
     LocationName: "Colorado National Monument",
+    Image: "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_379,q_65,w_639/v1/clients/grandjunctionco/colorado_national_monument_winter_63e2fbec-9871-40a7-81e4-d906e29ac510.jpg",
     Address: "Colorado National Monument, 7 M S of Fruita Hwy 340",
     City: "Fruita",
     State: "Colorado",
@@ -1760,6 +1770,7 @@ const nationalParksArray = [
   {
     LocationID: "fobo",
     LocationName: "Fort Bowie National Historic Site",
+    Image: "https://www.nps.gov/articles/images/Fort-Bowie-Ruins.jpg",
     Address:
       "Fort Bowie National Historic Site, 3203 South Old Fort Bowie Road",
     City: "Bowie",
@@ -2263,6 +2274,7 @@ const nationalParksArray = [
   {
     LocationID: "GLCA",
     LocationName: "Glen Canyon National Recreation Area",
+    Image: "https://www.nps.gov/common/uploads/grid_builder/glca/crop16_9/FF0AEDF2-FC55-8E22-B57E656FFF709AF9.jpg?width=640&quality=90&mode=crop",
     Address: "Glen Canyon NRA, PO Box 1507",
     City: "Page",
     State: "Arizona",
@@ -2343,6 +2355,7 @@ const nationalParksArray = [
   {
     LocationID: "grca",
     LocationName: "Grand Canyon National Park",
+    Image: "https://cdn.outsideonline.com/wp-content/uploads/2018/11/20/outside-guide-grand-canyon_h.jpg?crop=25:14&width=500&enable=upscale",
     Address: "Grand Canyon National Park, P.O. Box 129",
     City: "Grand Canyon",
     State: "Arizona",
@@ -2359,6 +2372,7 @@ const nationalParksArray = [
   {
     LocationID: "para",
     LocationName: "Grand Canyon-Parashant National Monument",
+    Image:"https://i0.wp.com/www.azbackroads.com/wp-content/uploads/PSX_20210505_155536-scaled.jpg?fit=1200%2C575&ssl=1",
     Address:
       "Grand Canyon-Parashant National Monument, 345 East Riverside Drive",
     City: "St. George",
@@ -2554,6 +2568,7 @@ const nationalParksArray = [
   {
     LocationID: "hale",
     LocationName: "Haleakala National Park",
+    Image:"https://cdn.outsideonline.com/wp-content/uploads/2022/12/haleakala-crater-slidingsands_h.jpg",
     Address: "PO Box 369",
     City: "Makawao",
     State: "Hawaii",
@@ -2651,6 +2666,7 @@ const nationalParksArray = [
   {
     LocationID: "havo",
     LocationName: "Hawai'i Volcanoes National Park",
+    Image: "https://www.nps.gov/havo/learn/news/images/20230607-SA100974-200.jpg",
     Address: "Hawai`i Volcanoes National Park, P.O. Box 52",
     City: "Hawai`i National Park",
     State: "Hawaii",
@@ -2683,6 +2699,7 @@ const nationalParksArray = [
   {
     LocationID: "pima",
     LocationName: "Hohokam Pima National Monument",
+    Image: "https://cdn.britannica.com/23/116723-004-07B5E59A/Casa-Grande-Ruins-National-Monument-Ariz-Coolidge.jpg?w=300&h=169&c=crop",
     Address: "Hohokam Pima National Monument",
     City: "Chandler",
     State: "Arizona",
@@ -2811,6 +2828,7 @@ const nationalParksArray = [
   {
     LocationID: "hutar",
     LocationName: "Hubbell Trading Post National Historic Site",
+    Image: "https://www.arizonahighways.com/sites/default/files/2021-08/Hubbell.jpg",
     Address: "Hubbell Trading Post NHS, P.O. Box 150",
     City: "Ganado",
     State: "Arizona",
@@ -2827,6 +2845,7 @@ const nationalParksArray = [
   {
     LocationID: "iatr",
     LocationName: "Ice Age National Scenic Trail",
+    Image:"https://blog-assets.thedyrt.com/uploads/2018/11/shutterstock_1086953804-e1542066734975.jpg",
     Address: "National Park Service, 700 Rayovac Drive Suite 100",
     City: "Madison",
     State: "Wisconsin",
@@ -3859,6 +3878,7 @@ const nationalParksArray = [
   {
     LocationID: "NATT",
     LocationName: "Natchez Trace National Scenic Trail",
+    Image:"https://www.nps.gov/common/uploads/grid_builder/natt/crop16_9/DFCF7564-DB51-524A-B1C33F96B8ED9581.jpg?width=640&quality=90&mode=crop",
     Address: "Natchez Trace National Scenic Trail, 2680 Natchez Trace Parkway",
     City: "Tupelo",
     State: "Mississippi",
@@ -4118,6 +4138,7 @@ const nationalParksArray = [
   {
     LocationID: "NOCO",
     LocationName: "North Country National Scenic Trail",
+    Image:"https://widnr.widen.net/content/7svhurziim/jpeg/Parks_Topic-Image_Pattison-Waterfall.jpg?w=870&h=580&keep=c&crop=yes&quality=80&x.app=portals",
     Address: "700 Rayovac Dr. Suite 100",
     City: "Madison",
     State: "Wisconsin",
@@ -4537,6 +4558,7 @@ const nationalParksArray = [
   {
     LocationID: "POHE",
     LocationName: "Potomac Heritage National Scenic Trail",
+    Image:"https://content.sierraclub.org/outings/sites/content.sierraclub.org.outings/files/styles/trip-main/public/trips/main-images/19200_2_GlennGillis.jpg?itok=XmAoU6nv",
     Address: "Potomac Heritage National Scenic Trail Office, Post Office Box B",
     City: "Harpers Ferry",
     State: "West Virginia",
