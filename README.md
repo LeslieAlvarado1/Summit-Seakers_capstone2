@@ -20,12 +20,14 @@ Homepage
 
 National Parks Explorer
 
-![np1](image-3.png)
-![np2](image-4.png)
+![alt text](image-6.png)
+![alt text](image-3.png)
 
 Mountains Explorer
 
+![alt text](image-4.png)
 ![alt text](image-5.png)
+
 
 ## Interesting JavaScript Code
 
