@@ -8,6 +8,6 @@ $(document).ready(function () {
     nav: false, // Disable navigation arrows
     dots: false, // Disable dots
     autoplay: true, // Enable autoplay
-    autoplayTimeout: 5000, // Set autoplay interval in milliseconds (e.g., 3000ms = 3 seconds)
+    autoplayTimeout: 3500, // Set autoplay interval in milliseconds (e.g., 3000ms = 3 seconds)
   });
 });
