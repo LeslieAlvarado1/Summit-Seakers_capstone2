@@ -1,6 +1,10 @@
 /* Styling for Mountains file */
 body {
-  background: linear-gradient(to right, #464646ab, #36955f90); /* Change the gradient direction to left-to-right */
+  background: linear-gradient(
+    to right,
+    #464646ab,
+    #36955f90
+  ); /* Change the gradient direction to left-to-right */
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -19,23 +23,25 @@ body {
 .mountain-card {
   display: flex;
   flex-direction: column;
-  background-color: #f8f9faed;
+  align-items: center;
+  background-color: #ededede5;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
-  width: 800px; /* Adjust the width as needed */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 600px; /* Adjust the width as needed */
+  box-shadow: 0 28px 28px rgba(0, 0, 0, 0.1);
   margin: 0 auto; /* Center the card horizontally */
   margin-bottom: 5%;
 }
 
 .mountain-photo {
-  width: 100%;
+  width: 70%;
   border-radius: 8px;
 }
 
 .mountain-info {
   margin-top: 20px;
+  text-align: center;
 }
 
 .mountain-name {
