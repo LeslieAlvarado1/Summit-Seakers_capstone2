@@ -5,7 +5,11 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
+h1 {
+  color: #000;
+  text-shadow: -0.5px -0.5px 0 #ffffffc3, 0.5px -0.5px 0 #ffffffc3, -0.5px 0.5px 0 #ffffffc3,
+  0.5px 0.5px 0 #ffffffc3;
+}
 /* Styling for navBar */
 
 .navbar-text {
